@@ -105,7 +105,40 @@ As these values look legitimate in the context of credit risk modelling, I am no
 
 ## EDA Questions
 
-![image](https://user-images.githubusercontent.com/34641108/95004822-ec809000-05b5-11eb-9c14-69e26d31d5e0.png)
+
+![image](https://user-images.githubusercontent.com/34641108/95004886-be4f8000-05b6-11eb-98c9-c37812fe82e4.png)
+
+## EDA Questions -- Continued
+
+##### Q3: Are young people more credit worthy?
+
+```
+As evident in the chart, the proportion of Bad with respect to Good
+shows a downward trend as the Age increases, hence we conclude that
+aged people default lesser number of times which in turn says, young
+people have more tendency to default
+```
+Dividing Age variable into following 3 brackets:
+
+```
+![image](https://user-images.githubusercontent.com/34641108/95004844-3a959380-05b6-11eb-85cc-98b71636180a.png)
+![image](https://user-images.githubusercontent.com/34641108/95004850-4da86380-05b6-11eb-975c-d974d298e56c.png)
+![image](https://user-images.githubusercontent.com/34641108/95004855-60229d00-05b6-11eb-8387-daf2ebef77da.png)
 
 
+- Rationale behind creating such Age bins:
+    - Age < 30: Could comprise of Loan seeking, affluent spenders
+    - 30<Age<45: Generally consists of married people seeking financial
+       security for family, or as an investment vehicle
+    - Age>45: Averse to seeking loans, in general (could have made this to
+       Age 50, but sample size would have gone smaller)
+
+
+## Machine Learning Pipeline
+
+![image](https://user-images.githubusercontent.com/34641108/95004876-9cee9400-05b6-11eb-99ae-65aa1b114c46.png)
+
+## Prediction and Definition of credit worthiness learned from
+
+![image](https://user-images.githubusercontent.com/34641108/95004897-d9ba8b00-05b6-11eb-8bfd-597499962ca4.png)
 
