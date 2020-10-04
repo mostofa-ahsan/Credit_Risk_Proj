@@ -98,7 +98,7 @@ same distribution.
 #### 3) Outlier analysis
 
 ![image](https://user-images.githubusercontent.com/34641108/95004776-6fedb180-05b5-11eb-9a5b-9ed0ec10ba0a.png)
-
+```
 The cut off value and corresponding number of instances falling out of 3 sigma are shown in the table to the right:
 As these values look legitimate in the context of credit risk modelling, I am not treating them as outliers
 ```
