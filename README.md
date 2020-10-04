@@ -47,4 +47,5 @@
 - The dataset is divided into 90%-10%:
     - **Train -** 900
     - **Test -** 100
-    ![github-large] (https://github.com/mostofa-ahsan/Outputs-and-references/blob/main/Credit_risk_1.JPG)
+![Credit_risk_1](https://user-images.githubusercontent.com/34641108/95004702-5dbf4380-05b4-11eb-845c-d2d50231a18e.JPG)
+
