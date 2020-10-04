@@ -84,3 +84,27 @@ same distribution.
 ![Credit_risk_distribution](https://user-images.githubusercontent.com/34641108/95004721-b5f64580-05b4-11eb-80b8-66120c9f42f0.JPG)
 
 
+
+## Exploratory Data Analysis```
+#### 1) Missing Value Treatment
+
+![Missing_Values](https://user-images.githubusercontent.com/34641108/95004761-42a10380-05b5-11eb-88d4-0972302c2a3a.JPG)
+
+#### 2) Categorical Value Treatment
+
+![image](https://user-images.githubusercontent.com/34641108/95004766-59dff100-05b5-11eb-8c7f-0320a7acdc95.png)
+
+
+#### 3) Outlier analysis
+
+![image](https://user-images.githubusercontent.com/34641108/95004776-6fedb180-05b5-11eb-9a5b-9ed0ec10ba0a.png)
+
+The cut off value and corresponding number of instances falling out of 3 sigma are shown in the table to the right:
+As these values look legitimate in the context of credit risk modelling, I am not treating them as outliers
+```
+
+## EDA Questions
+
+![image](https://user-images.githubusercontent.com/34641108/95004793-93b0f780-05b5-11eb-9e56-b8a21fc6efa1.png)
+
+
