@@ -143,3 +143,10 @@ Dividing Age variable into following 3 brackets:
 
 ![image](https://user-images.githubusercontent.com/34641108/95004897-d9ba8b00-05b6-11eb-8bfd-597499962ca4.png)
 
+
+
+## Model Selection Criteria
+
+
+![image](https://user-images.githubusercontent.com/34641108/95004932-839a1780-05b7-11eb-9d75-a3aad340fdab.png)
+
