@@ -105,6 +105,7 @@ As these values look legitimate in the context of credit risk modelling, I am no
 
 ## EDA Questions
 
-![image](https://user-images.githubusercontent.com/34641108/95004793-93b0f780-05b5-11eb-9e56-b8a21fc6efa1.png)
+![image](https://user-images.githubusercontent.com/34641108/95004822-ec809000-05b5-11eb-9c14-69e26d31d5e0.png)
+
 
 
