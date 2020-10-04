@@ -146,7 +146,27 @@ Dividing Age variable into following 3 brackets:
 
 
 ## Model Selection Criteria
+- F score is generally used as evaluation metric when there is no preference between Recall and Precision
+    - **2PR/(P+R),** where
+    - P: Precision: focus on reducing False Positives (FN)
+    - R: Recall: focus on reducing False Negatives (FN)
+- Relevance of importance of Recall vs Precision in our example:
+    - As per the given report, **there is a cost on classifying the customer as good when they are bad** , i.e.
 
+##### predicting Good Risk (class 1, positive class) when it is False i.e. False Positives (FP) draw heavy
+
+##### penalty based on our business objective
+
+- Precision = TP/(TP+FP), so our goal is to prioritize Precision which in turn will reduce the FP
+- **Had the objective been to give penalty on predicting bad when they are good i.e. based on ML**
+
+##### recommendations, we are refraining from lending, we would have lost business.
+
+- In that case, the focus would be on False Negatives i.e. you are predicting Bad Risk (class 0, negative
+
+##### class) while the customer was in Good Risk category. So, we predicted negative which went wrong
+
+##### implying lesser FN, which in turn would lead to more weight on Recall (TP/TP+FN)
 
 ![image](https://user-images.githubusercontent.com/34641108/95004932-839a1780-05b7-11eb-9d75-a3aad340fdab.png)
 
