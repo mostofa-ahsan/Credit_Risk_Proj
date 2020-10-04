@@ -116,11 +116,12 @@ As these values look legitimate in the context of credit risk modelling, I am no
 As evident in the chart, the proportion of Bad with respect to Good
 shows a downward trend as the Age increases, hence we conclude that
 aged people default lesser number of times which in turn says, young
-people have more tendency to default
-```
+people have more tendency to default.
+
 Dividing Age variable into following 3 brackets:
 
 ```
+
 ![image](https://user-images.githubusercontent.com/34641108/95004844-3a959380-05b6-11eb-85cc-98b71636180a.png)
 ![image](https://user-images.githubusercontent.com/34641108/95004850-4da86380-05b6-11eb-975c-d974d298e56c.png)
 ![image](https://user-images.githubusercontent.com/34641108/95004855-60229d00-05b6-11eb-8387-daf2ebef77da.png)
