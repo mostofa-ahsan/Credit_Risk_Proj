@@ -47,5 +47,40 @@
 - The dataset is divided into 90%-10%:
     - **Train -** 900
     - **Test -** 100
-![Credit_risk_1](https://user-images.githubusercontent.com/34641108/95004702-5dbf4380-05b4-11eb-845c-d2d50231a18e.JPG)
+    
+    
+    ![Credit_risk_1](https://user-images.githubusercontent.com/34641108/95004702-5dbf4380-05b4-11eb-845c-d2d50231a18e.JPG)
+    
+    * The data downloaded from the link did not have column headers, hence found discrepancies in column names and their values. This is a trimmed version of German Credit Risk data found by web search
+
+
+### Generalization
+
+### Power: train and test
+
+### distribution similarity
+
+- One of the most critical assumption in ML data modelling is that **train and test dataset
+belong to similar distribution** , as is evident from graphs above. Note that the train data is
+used as a reference to **estimate** the future credit worthiness of customers, hence the ML
+solution is probabilistic one and not guaranteed based on past data. This emphasizes **the
+property of generalization of ML solution**
+
+```
+KS statistic is a numeric measure to check the hypothesis of whether the distributions of 2
+dataset is same. For e.g. KS statistic > p value implies same distribution
+```
+Blue colour histogram is from Train data and Green
+
+colour is from Test data, the histogram plots from
+
+two distribution are sharing significant overlap with
+
+each other implying that there is no drift between
+
+the two datasets and that they are drawn from
+
+same distribution.
+![Credit_risk_distribution](https://user-images.githubusercontent.com/34641108/95004721-b5f64580-05b4-11eb-80b8-66120c9f42f0.JPG)
+
 
