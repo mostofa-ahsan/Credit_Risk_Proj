@@ -1,6 +1,4 @@
-# Evaluation of Credit Risk
-
-# using Machine Learning
+# Evaluation of Credit Risk using Machine Learning
 
 ## Prepared by:
 
